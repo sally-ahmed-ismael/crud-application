@@ -158,6 +158,14 @@
       "description": "The LFC Salah 20/21 Boxed Shirt features a 20/21 Home Shirt, signed by LFC Forward Mohamed Salah and comes complete with official Certificate of Authenticity, displayed in a black presentation box with silver details.",
       "category": "sports wear",
       "price": "2000"
+    },
+    {
+      "id": "2a03",
+      "image": "",
+      "title": "a",
+      "description": "a",
+      "category": "sports ",
+      "price": 0
     }
   ],
   "categories": [
@@ -180,6 +188,10 @@
     {
       "id": "5",
       "category": "sports wear"
+    },
+    {
+      "id": "7e75",
+      "category": "sports "
     }
   ]
 }

@@ -46,7 +46,7 @@ function AddProduct() {
   const checkCategory = (category)=>{
     console.log(`length = ${categories.length}`)
       for(let i=0; i<categories.length; i++){
-        if (category["category"] === categories[i]["category"])
+        if (category === categories[i]["category"])
           return true;  
       }
       return false;
@@ -67,6 +67,8 @@ function AddProduct() {
 
   const formSubmit = (e)=>{
     e.preventDefault();
+    // let checkCat= category;//*//
+
     if(category && title)
       {
         axios.post('http://localhost:9000/products',
@@ -74,7 +76,7 @@ function AddProduct() {
             image,title,description,category,price
           })
 
-        !checkCategory(category)&& addCategory(category) ;
+        !checkCategory(category)&& addCategory(category) ;//*//
         navigate('/products');
 
       }

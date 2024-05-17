@@ -42,7 +42,7 @@ function EditProduct() {
    
   const checkCategory = (category)=>{
       for(let i=0; i<categories.length; i++){
-        if (category["category"] === categories[i]["category"])
+        if (category === categories[i]["category"])
           return true;  
       }
       return false;
@@ -77,9 +77,10 @@ function EditProduct() {
 
   const formSubmit = (e)=>{
     e.preventDefault();
+    let checkCat= category;
     updateProduct();
     
-    !checkCategory(category)&& addCategory(category) ;
+    !checkCategory(checkCat)&& addCategory(category) ;
     console.log(`check cat =${checkCategory(category)}`);
 
     navigate(`/products/${product.id}`);
