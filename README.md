@@ -39,6 +39,10 @@ The application was developed using Javascript, React, Bootstrap and CSS in the 
 
 
 
+Uploading crud.mp4…
+
+
+
 ## 🛠 Dependencies
 
 ```"axios",
