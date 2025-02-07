@@ -39,7 +39,11 @@ The application was developed using Javascript, React, Bootstrap and CSS in the 
 
 
 
-Uploading crud.mp4…
+
+https://github.com/user-attachments/assets/fac3be0e-298d-4851-8024-c47ca1c474b9
+
+
+
 
 
 
